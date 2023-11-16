@@ -1,0 +1,61 @@
+/* Add your own styles */
+/* Add your own styles */
+header{
+    background-color: skyblue; /* change background color to skyblue */
+    color:darkblue; /* change text color to dark blue */
+    padding:20px; /* reduce padding to 20px */
+    text-align: center;
+    border-bottom: 2px solid navy; /* change border color to navy */
+}
+
+h1{
+    font-family:Georgia, serif; /* change font-family to Georgia */
+    font-style: italic; /* add italic style */
+}
+
+body{
+    background-color: antiquewhite; /* change background color to antiquewhite */
+    font-family: 'Palatino Linotype', serif; /* change font-family to Palatino Linotype */
+    margin: 0px;
+    line-height: 1.5; /* increase line-height for better readability */
+}
+
+#controls{
+    padding: 20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 30%;
+    padding-right: 30%;
+    background-color: lightgray;
+    border-radius: 10px;
+}
+
+#buttons{
+    display:flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+#lookup{
+    padding: 8px 16px; /* modify padding to 8px top/bottom and 16px left/right */
+    margin: 5px;
+    background-color: dodgerblue; /* change background color to dodgerblue */
+    color: white;
+    font-family: 'Arial Narrow', sans-serif; /* change font-family to Arial Narrow */
+    border-style: none;
+    border-radius: 5px; /* modify border radius to 5px */
+    cursor: pointer;
+}
+
+#cities{
+    padding: 8px 16px; /* modify padding to 8px top/bottom and 16px left/right */
+    margin: 5px;
+    background-color: mediumseagreen; /* change background color to mediumseagreen */
+    color:white;
+    font-family: 'Courier New', monospace; /* change font-family to Courier New */
+    border-style: none;
+    border-radius: 5px; /* modify border radius to 5px */
+    cursor: pointer;
+}
